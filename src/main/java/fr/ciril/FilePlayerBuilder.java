@@ -5,7 +5,7 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-public class FileInstructionsReader {
+public class FilePlayerBuilder {
 
     Player readInstructionsFromFile(String path) {
         URL url = this.getClass().getClassLoader().getResource(path);
